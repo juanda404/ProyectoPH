@@ -1,0 +1,63 @@
+/* 
+1.Posicionamiento
+2.modelo de caja
+3. tipografia
+4. temas visuales 
+5. micelaneos u otros
+*/
+:root{
+    /* Colores */
+--color1: #061720;
+--color2: #0f3b4d;
+--color3:  #1a6484;
+--color4: #29a0c3;
+--color5: #2bcac8;
+--white: white;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+    height: 68vh;;
+    font-size: 1.6rem;
+}
+
+.main--registro{
+    position: relative;
+    top: -150px;
+}
+
+.main--registro h2{
+    text-align: center;
+}
+
+#access-form{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5px;
+    font-size: 1.6rem;
+    background-color: var(--color4);
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    position: relative;
+    top:30px;
+}
+
+.main--movimientos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: papayawhip;   
+    width: 80%;
+    position: relative;
+    top:-100px;
+}
+
+.main--movimientos h2 {
+    text-align: center;
+}
+

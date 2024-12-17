@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Panel</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/admin-style.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/icons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/icons/favicon-16x16.png">
+    <link rel="manifest" href="/assets/icons/site.webmanifest">
+</head>
+<body>
+    <header>
+        <img src="/assets/images/LOGO PARQUES DE CASTILLA.png" alt="Parques de Castilla 2">
+        <div class="header--title-container">
+            <h1>Administrador - Panel de Gestión </h1>
+            <nav>
+                <ul>
+                    <li><a href="/pages/admin.html">Registrar</a></li>
+                    <li><a href="/pages/listar.html">Listar</a></li>
+                    <li><a href="/pages/reportes.html">Reportes</a></li>
+                    <li><a href="/pages/seguridad.html">Seguridad</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="main--container">
+            <h2>Registrar Vehículos</h2>
+            <form id="vehiculo-formulario">
+                <label for="placa1">Placa1:</label>
+                <input type="text" id="placa1" name="placa1" required>
+                <label for="TipoVehiculo">Tipo vehiculo</label>
+                <select>
+                    <option value="moto">Motocicleta</option>
+                    <option value="carro">Automovil</option>
+                </select>
+                <label for="placa2">Placa2:</label>
+                <input type="text" id="placa2" name="placa2" required>
+                <label for="TipoVehiculo">Tipo vehiculo</label>
+                <select>
+                    <option value="moto">Motocicleta</option>
+                    <option value="carro">Automovil</option>
+                </select>
+                <label for="owner">Propietario:</label>
+                <input type="text" id="owner" name="owner" required>
+                <label for="owner">Torre:</label>
+                <select>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                </select>
+                <label for="owner">Apartamento:</label>
+                <input type="text" id="owner" name="owner" required>
+                <button type="submit" class="submit-button">Registrar</button>
+                <button type="reset" class="submit-button">Limpiar</button>
+            </form>
+    </main>
+    <footer>
+        <p> &copy; 2024 Juan David Santamaría . All rights reserved</p> 
+    </footer>
+</body>
+</html>

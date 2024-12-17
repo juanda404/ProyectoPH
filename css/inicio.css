@@ -1,0 +1,120 @@
+/* 
+1.Posicionamiento
+2.modelo de caja
+3. tipografia
+4. temas visuales 
+5. micelaneos u otros
+*/
+:root{
+    /* Colores */
+--color1: #061720;
+--color2: #0f3b4d;
+--color3:  #1a6484;
+--color4: #29a0c3;
+--color5: #2bcac8;
+--white: white;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.5%;
+    font-family: Roboto, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.header{
+    background: rgb(90,201,255);
+    background: linear-gradient(180deg, rgba(90,201,255,1) 58%, rgba(238,241,250,1) 100%);
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    min-width: 320px;
+    height: 250px;
+    text-align: center;
+    gap: 10px;
+}
+
+.header--img{
+    width: 50%;
+    max-width: 600px;
+    min-width: 300px;
+    align-self: center;
+    margin-top: 10px;
+    height: 100px;
+}
+
+.header--title-container{
+    width: 90%;
+    min-width: 300px;
+    max-width: 900px;
+    align-self: center;
+    height: 60px;
+    margin-top: 30px;
+}
+
+.header--title-container h1{
+    font-size: 2.4rem;
+    font-weight: bold;
+    color: var(--color2);
+}
+/* styles para main */
+.main{
+    /* background-color:  var(--color3); */
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    height: 68vh;
+}
+.main--formulario{
+    background-color: var(--color4);
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    position: relative;
+    top: 120px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5px;
+    font-size: 1.6rem;
+}
+
+.main--formulario label {
+    text-align: right;
+    padding-right: 10px;
+    align-self: center; /* Centra verticalmente los labels */
+}
+
+.main--formulario input {
+    width: 100%; /* Asegura que los inputs ocupen todo el espacio de la columna */
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.main--submit-button{
+    grid-column: span 2;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 4px;
+    border: none;
+    padding: 10px;
+}
+
+/* styles footer */
+
+footer{
+    background: rgb(90,201,255);
+    background: linear-gradient(180deg, rgba(90,201,255,1) 58%, rgba(238,241,250,1) 100%);
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    font-size: 1.6rem;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    color: var(--color2);
+}
+

@@ -1,0 +1,38 @@
+/* 
+1.Posicionamiento
+2.modelo de caja
+3. tipografia
+4. temas visuales 
+5. micelaneos u otros
+*/
+:root{
+    /* Colores */
+--color1: #061720;
+--color2: #0f3b4d;
+--color3:  #1a6484;
+--color4: #29a0c3;
+--color5: #2bcac8;
+--white: white;
+}
+.main--container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:15px;
+}
+
+.main--container h2{
+    margin-top: 10px;
+}
+
+/* table{
+    width: 100%;
+} */
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+    text-align: center;
+  }

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Porteria</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/seguridad-style.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/icons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/icons/favicon-16x16.png">
+    <link rel="manifest" href="/assets/icons/site.webmanifest">
+</head>
+<body>
+    <header>
+        <img src="/assets/images/LOGO PARQUES DE CASTILLA.png" alt="Parques de Castilla 2">
+        <div class="header--title-container">
+            <h1>Seguridad Registro Vehicular</h1>
+            <!-- <nav>
+                <ul>
+                    <li><a href="/pages/admin.html">Registrar</a></li>
+                    <li><a href="#">Listar</a></li>
+                    <li><a href="#">Reportes</a></li>
+                    <li><a href="/pages/seguridad.html">Seguridad</a></li>
+                </ul>
+            </nav> -->
+        </div>
+    </header>
+    <main class="main">
+        <section class="main--registro">
+            <!-- <h2> Ingreso/Salida</h2> -->
+            <form id="access-form">
+                <label for="plate">Placa:</label>
+                <input type="text" id="plate" name="plate" required autofocus >
+                <label for="movement">Movimiento:</label><br>
+                <input type="radio" id="html" name="fav_language" value="HTML">
+                <label for="html">Entrada</label>
+                <input type="radio" id="css" name="fav_language" value="CSS">
+                <label for="css">Salida</label>
+                <label for="Hora">Hora</label>
+                <input type="datetime-local" id="hora" name="hora">
+                <button type="submit">Registrar</button>
+                <button type="reset" class="submit-button">Limpiar</button>
+            </form>
+        </section>
+        <section class="main--movimientos">
+            <h2>Historial de Movimientos</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Placa</th>
+                        <th>Fecha</th>
+                        <th>Hora</th>
+                        <th>Movimiento</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Aquí se listarán los movimientos -->
+                </tbody>
+            </table>
+        </section>
+    </main>
+    <footer>
+        <p> &copy; 2024 Juan David Santamaría . All rights reserved</p> 
+    </footer>
+</body>
+</html>

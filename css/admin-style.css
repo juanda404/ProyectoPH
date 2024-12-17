@@ -1,0 +1,64 @@
+/* 
+1.Posicionamiento
+2.modelo de caja
+3. tipografia
+4. temas visuales 
+5. micelaneos u otros
+*/
+:root{
+    /* Colores */
+--color1: #061720;
+--color2: #0f3b4d;
+--color3:  #1a6484;
+--color4: #29a0c3;
+--color5: #2bcac8;
+--white: white;
+}
+
+.main--container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    /* height: 68vh; */
+}
+
+.main--container h2{
+    position: relative;
+    top:20px;
+}
+
+#vehiculo-formulario{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    position: relative;
+    top: 20px;
+    padding: 20px;
+    gap: 5px;
+    margin: 5px;
+    font-size: 1.6rem;
+    background-color:  var(--color4);
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    text-align: right;
+    padding-right: 10px;
+    align-self: center; /* Centra verticalmente los labels */
+}
+
+input , select {
+    width: 100%; /* Asegura que los inputs ocupen todo el espacio de la columna */
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.submit-button{
+    cursor: pointer;
+    text-align: center;
+    border-radius: 4px;
+    border: none;
+    padding: 10px;
+}
