@@ -1,0 +1,202 @@
+[
+    {
+        "torre": 1,
+        "apartamento": 101,
+        "placa1": "QVC306",
+        "tipoVehiculo1": "Motocicleta",
+        "placa2": "QKN504",
+        "tipoVehiculo2": "Automovil",
+        "propietario": 7754125,
+        "estado": "Inhabilitado"
+    },
+    {
+        "torre": 1,
+        "apartamento": 102,
+        "placa1": "CSL972",
+        "tipoVehiculo1": "Motocicleta",
+        "placa2": "n/a",
+        "tipoVehiculo2": "n/a",
+        "propietario": 1756306,
+        "estado": "Habilitado"
+    },
+    {
+        "torre": 1,
+        "apartamento": 103,
+        "placa1": "FVA731",
+        "tipoVehiculo1": "Motocicleta",
+        "placa2": "n/a",
+        "tipoVehiculo2": "n/a",
+        "propietario": 8404898,
+        "estado": "Inhabilitado"
+    },
+    {
+        "torre": 1,
+        "apartamento": 104,
+        "placa1": "GGY287",
+        "tipoVehiculo1": "Motocicleta",
+        "placa2": "HTR019",
+        "tipoVehiculo2": "Automovil",
+        "propietario": 5053738,
+        "estado": "Habilitado"
+    },
+    {
+        "torre": 1,
+        "apartamento": 201,
+        "placa1": "MJA801",
+        "tipoVehiculo1": "Automovil",
+        "placa2": "n/a",
+        "tipoVehiculo2": "n/a",
+        "propietario": 5225116,
+        "estado": "Habilitado"
+    },
+    {
+        "torre": 1,
+        "apartamento": 202,
+        "placa1": "WRV304",
+        "tipoVehiculo1": "Motocicleta",
+        "placa2": "PQQ460",
+        "tipoVehiculo2": "Automovil",
+        "propietario": 6209143,
+        "estado": "Inhabilitado"
+    },
+    {
+        "torre": 1,
+        "apartamento": 203,
+        "placa1": "UDE450",
+        "tipoVehiculo1": "Automovil",
+        "placa2": "YWO398",
+        "tipoVehiculo2": "Motocicleta",
+        "propietario": 8827004,
+        "estado": "Habilitado"
+    },
+    {
+        "torre": 1,
+        "apartamento": 204,
+        "placa1": "MFP455",
+        "tipoVehiculo1": "Automovil",
+        "placa2": "MRA382",
+        "tipoVehiculo2": "Automovil",
+        "propietario": 7875306,
+        "estado": "Habilitado"
+    },
+    {
+        "torre": 1,
+        "apartamento": 301,
+        "placa1": "FVG808",
+        "tipoVehiculo1": "Automovil",
+        "placa2": "RAE162",
+        "tipoVehiculo2": "Motocicleta",
+        "propietario": 8345105,
+        "estado": "Habilitado"
+    },
+    {
+        "torre": 1,
+        "apartamento": 302,
+        "placa1": "VON086",
+        "tipoVehiculo1": "Automovil",
+        "placa2": "n/a",
+        "tipoVehiculo2": "n/a",
+        "propietario": 8387350,
+        "estado": "Habilitado"
+    },
+    {
+        "torre": 1,
+        "apartamento": 303,
+        "placa1": "PWQ045",
+        "tipoVehiculo1": "Motocicleta",
+        "placa2": "JTB486",
+        "tipoVehiculo2": "Motocicleta",
+        "propietario": 8302074,
+        "estado": "Inhabilitado"
+    },
+    {
+        "torre": 1,
+        "apartamento": 304,
+        "placa1": "COA714",
+        "tipoVehiculo1": "Automovil",
+        "placa2": "n/a",
+        "tipoVehiculo2": "n/a",
+        "propietario": 3711129,
+        "estado": "Inhabilitado"
+    },
+    {
+        "torre": 1,
+        "apartamento": 401,
+        "placa1": "AEE979",
+        "tipoVehiculo1": "Automovil",
+        "placa2": "n/a",
+        "tipoVehiculo2": "n/a",
+        "propietario": 6613641,
+        "estado": "Inhabilitado"
+    },
+    {
+        "torre": 1,
+        "apartamento": 402,
+        "placa1": "CQX411",
+        "tipoVehiculo1": "Automovil",
+        "placa2": "EZD448",
+        "tipoVehiculo2": "Automovil",
+        "propietario": 3722816,
+        "estado": "Inhabilitado"
+    },
+    {
+        "torre": 1,
+        "apartamento": 403,
+        "placa1": "DXF291",
+        "tipoVehiculo1": "Motocicleta",
+        "placa2": "n/a",
+        "tipoVehiculo2": "n/a",
+        "propietario": 4742083,
+        "estado": "Habilitado"
+    },
+    {
+        "torre": 1,
+        "apartamento": 404,
+        "placa1": "NZZ778",
+        "tipoVehiculo1": "Motocicleta",
+        "placa2": "n/a",
+        "tipoVehiculo2": "n/a",
+        "propietario": 6449104,
+        "estado": "Inhabilitado"
+    },
+    {
+        "torre": 1,
+        "apartamento": 501,
+        "placa1": "WKR212",
+        "tipoVehiculo1": "Automovil",
+        "placa2": "n/a",
+        "tipoVehiculo2": "n/a",
+        "propietario": 9948321,
+        "estado": "Habilitado"
+    },
+    {
+        "torre": 1,
+        "apartamento": 502,
+        "placa1": "JQS905",
+        "tipoVehiculo1": "Motocicleta",
+        "placa2": "KPT488",
+        "tipoVehiculo2": "Automovil",
+        "propietario": 7302954,
+        "estado": "Inhabilitado"
+    },
+    {
+        "torre": 1,
+        "apartamento": 503,
+        "placa1": "PZT682",
+        "tipoVehiculo1": "Automovil",
+        "placa2": "n/a",
+        "tipoVehiculo2": "n/a",
+        "propietario": 8123670,
+        "estado": "Habilitado"
+    },
+    {
+        "torre": 1,
+        "apartamento": 504,
+        "placa1": "RGX401",
+        "tipoVehiculo1": "Motocicleta",
+        "placa2": "WTZ309",
+        "tipoVehiculo2": "Automovil",
+        "propietario": 5904832,
+        "estado": "Habilitado"
+    }
+]
