@@ -27,8 +27,10 @@
         </div>
     </header>
     <main class="main--container">
-        <h2>Lista de Vehículos</h2>
         <table>
+          <caption > 
+              <h2>Lista de Vehículos</h2>
+          </caption>
             <thead>
                 <tr>
                     <th>Torre</th>
@@ -45,6 +47,11 @@
                 <!-- aqui va la informacion del json -->
             </tbody>
         </table>
+        <tfoot>
+          <tr>
+              <td >Total de vehículos: <span id="total-vehiculos"></span></td>
+          </tr>
+        </tfoot>
         <div id="pagination">
           <button id="prev" disabled>Anterior</button>
               <span id="page-info">Página 1</span>

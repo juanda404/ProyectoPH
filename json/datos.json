@@ -198,5 +198,16 @@
         "tipoVehiculo2": "Automovil",
         "propietario": 5904832,
         "estado": "Habilitado"
+    },
+    {
+        "torre": 2,
+        "apartamento": 101,
+        "placa1": "XYZ123",
+        "tipoVehiculo1": "Motocicleta",
+        "placa2": "AAA239",
+        "tipoVehiculo2": "Automovil",
+        "propietario": 23232323,
+        "estado": "Habilitado"
     }
+    
 ]
