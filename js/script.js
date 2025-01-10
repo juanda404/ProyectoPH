@@ -36,7 +36,7 @@ function renderTable(page) {
             if (key === "apartamento") {
                 // Crea un enlace en lugar del texto plano
                 const enlace = document.createElement("a");
-                enlace.href = `detalles.html?torre=${item.torre}&apartamento=${item.apartamento}`;
+                enlace.href = `actualizar.html?torre=${item.torre}&apartamento=${item.apartamento}`;
                 enlace.textContent = item.apartamento;
                 celda.appendChild(enlace);
             } else {
