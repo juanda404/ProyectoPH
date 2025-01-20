@@ -13,11 +13,32 @@ async function cargarDetalles() {
         );
 
         if (detalles) {
-            const infoDiv = document.getElementById("info-apartamento");
+            const formulario = document.getElementById("vehiculo-formulario");
+
+            // Itera sobre las claves y valores del objeto
             Object.entries(detalles).forEach(([key, value]) => {
-                const p = document.createElement("p");
-                p.textContent = `${key}: ${value}`;
-                infoDiv.appendChild(p);
+                // Crea un contenedor para cada campo
+                const fieldContainer = document.createElement("div");
+                fieldContainer.classList.add("field-container");
+
+                // Crea la etiqueta (label)
+                const label = document.createElement("label");
+                label.setAttribute("for", key);
+                label.textContent = key;
+
+                // Crea el campo de texto (input)
+                const input = document.createElement("input");
+                input.type = "text";
+                input.id = key;
+                input.name = key;
+                input.value = value;
+
+                // Agrega la etiqueta y el campo al contenedor
+                fieldContainer.appendChild(label);
+                fieldContainer.appendChild(input);
+
+                // Agrega el contenedor al formulario
+                formulario.appendChild(fieldContainer);
             });
         } else {
             alert("Apartamento no encontrado.");
