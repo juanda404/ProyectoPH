@@ -1,0 +1,15 @@
+{
+  "name": "projectwebph",
+  "version": "1.0.0",
+  "description": "### Descripción Este proyecto es una solución diseñada para gestionar de manera eficiente la información de una propiedad horizontal. Permite administrar datos de apartamentos, propietarios, vehículos asociados y el estado de acceso de los mismos.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
